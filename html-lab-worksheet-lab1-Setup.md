@@ -76,4 +76,4 @@
 ### บันทึกผลการทดลอง
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
 
-<img width="714" alt="Screenshot 2568-02-04 at 16 16 54" src="https://github.com/user-attachments/assets/e6be33b7-5dc1-48f2-9d78-062aa6512a1e" />
+<img width="1463" alt="Screenshot 2568-02-04 at 16 20 20" src="https://github.com/user-attachments/assets/a3fd3d96-94de-4b04-b15f-55d4b14d36dd" />
