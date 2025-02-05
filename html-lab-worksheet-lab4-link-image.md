@@ -264,6 +264,8 @@
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
 
+<img width="1455" alt="Screenshot 2568-02-05 at 14 01 57" src="https://github.com/user-attachments/assets/ee4353d7-704c-4f0f-ae88-54e917963a92" />
+
 <img width="1206" alt="Screenshot 2568-02-05 at 14 02 08" src="https://github.com/user-attachments/assets/12c5efd9-801d-4b07-a315-795f6131bb3e" />
 
 
