@@ -248,12 +248,6 @@
             <!-- ส่วนข้อมูลส่วนตัว -->
             <fieldset>
                 <legend>ข้อมูลส่วนตัว</legend>
-                
-                <div class="form-group">
-                    <label for="studentId">รหัสนักศึกษา:</label>
-                    <input type="text" id="studentId" name="studentId" 
-                           pattern="[0-9]{8}" required>
-                </div>
         
                 <div class="form-group">
                     <label for="prefix">คำนำหน้า:</label>
@@ -353,26 +347,25 @@
 
             <!-- ส่วนยืนยันข้อมูล -->
             <fieldset>
-                <legend>การยืนยัน</legend>
+                <legend>การยืนยันข้อมูล</legend>
         
                 <div class="form-group">
                     <input type="checkbox" id="agree" name="agree" required>
                     <label for="agree">
-                        ข้าพเจ้ายืนยันว่าข้อมูลทั้งหมดเป็นความจริง
+                        ยืนยันว่าข้อมูลทั้งหมดของท่านเป็นความจริง
                     </label>
                 </div>
         
                 <div class="form-group">
-                    <button type="submit">ลงทะเบียน</button>
-                    <button type="reset">ล้างข้อมูล</button>
+                    <button type="submit">ยืนยัน</button>
+                    <button type="reset">ลบข้อมูล</button>
                 </div>
             </fieldset>
         </form>
-
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
 
-<img width="1184" alt="Screenshot 2568-02-05 at 15 15 57" src="https://github.com/user-attachments/assets/9508049f-d851-49d9-8f19-42762f3c6bbe" />
+<img width="1040" alt="Screenshot 2568-02-05 at 15 20 11" src="https://github.com/user-attachments/assets/f6e2ac9b-1199-4e34-a617-19d0dcece294" />
 
 
