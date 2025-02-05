@@ -68,8 +68,128 @@
 
 [วางโค้ด HTML ที่นี่]
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .menu-item {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item h3 {
+            margin: 0 0 5px;
+            font-size: 1.2rem;
+        }
+        .menu-item p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>ข้อมูลส่วนตัว</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>หัวข้อ</th>
+                <th>ข้อมูล</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ชื่อ</td>
+                <td>กิตติกาญจน์ แก้วนวล</td>
+            </tr>
+            <tr>
+                <td>ชื่อเล่น</td>
+                <td>มีมี่</td>
+            </tr>
+            <tr>
+                <td>อายุ</td>
+                <td>18 ปี</td>
+            </tr>
+            <tr>
+                <td>อาชีพที่อยากเป็นในอนาคต</td>
+                <td>ครู</td>
+            </tr>
+            <tr>
+                <td>มหาวิทยาลัย</td>
+                <td>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</td>
+            </tr>
+            <tr>
+                <td>คณะ</td>
+                <td>คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี</td>
+            </tr>
+            <tr>
+                <td>สาขาวิชา</td>
+                <td>เทคโนโลยีคอมพิวเตอร์</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>เมนูอาหาร</h1>
+    <div class="menu-item">
+        <h3>ซาลาเปาทอด</h3>
+        <p>ราคา: 20 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>ปาท่องโก๋</h3>
+        <p>ราคา: 20 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้</h3>
+        <p>ราคา: 10 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้นมสด</h3>
+        <p>ราคา: 15 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้งาดำ</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้ชาเขียว</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้โกโก้</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้ชาไทย</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
+
+</body>
+</html>
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
 
+<img width="786" alt="Screenshot 2568-02-05 at 14 11 28" src="https://github.com/user-attachments/assets/fc7711b9-efb6-4eec-ad03-582516d63d15" />
+<img width="486" alt="Screenshot 2568-02-05 at 14 11 14" src="https://github.com/user-attachments/assets/2ea21e64-a770-45ef-8bca-b0c0c6ab7032" />
