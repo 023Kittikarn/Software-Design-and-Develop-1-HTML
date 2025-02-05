@@ -165,9 +165,86 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+</head>
+<body>
+    <nav id="nav">
+        <img src="./images/logo.jpeg" alt="logo" width="50" height="50">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="pages/about.html">เกี่ยวกับเรา</a>
+        <a href="pages/contact.html">ติดต่อเรา</a>
+    </nav>
+    <hr>
+    <section>
+        <h1>Gallery</h1>
+        <figure>
+            <a href="images/gallery/produg1.webp">
+                <img src="images/products/produg1.webp" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>เมนูอาหาร:</strong>
+                    หม่าล่าทั่ง
+                </p>
+                <p>
+                    <strong>ราคา:</strong>
+                    ขีดละ 30 บาท
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <a href="images/gallery/produg2.webp">
+                <img src="images/products/produg2.webp" alt="product2" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>เมนูอาหาร:</strong>
+                    หม่าล่าปิ้ง
+                </p>
+                <p>
+                    <strong>ราคา:</strong>
+                    ไม้ละ 5 - 15 บาท
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <a href="images/gallery/produg3.jpg">
+                <img src="images/products/produg3.jpg" alt="product3" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>เมนูอาหาร:</strong>
+                    หม่าล่าผัดแห้ง
+                </p>
+                <p>
+                    <strong>ราคา:</strong>
+                    ขีดละ 30 บาท
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            
+        <hr>
+    </section>
+    
+    <a href="#nav">กลับด้านบน</a>
+</body>
+</html>
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
+
+<img width="857" alt="Screenshot 2568-02-05 at 16 25 04" src="https://github.com/user-attachments/assets/5fb85169-fcc5-4824-9817-e14cf2b954e6" />
+
+<img width="858" alt="Screenshot 2568-02-05 at 16 25 31" src="https://github.com/user-attachments/assets/c80ba13f-43d9-4e40-8d79-880cc2fb2aa0" />
+
 
 
