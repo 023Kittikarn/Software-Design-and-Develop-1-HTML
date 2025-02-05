@@ -172,90 +172,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    
+    </style>
 </head>
-<style>
-    table {
-        width: 50%;
-        border-collapse: collapse;
-    }
-
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: center;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    }
-</style>
 <body>
 
-  <h1>ข้อมูลส่วนตัว</h1>
-  <table>
-    <tr>
-      <th>ชื่อ</th>
-      <td>กิตติกาญจน์ แก้วนวล</td>
-    </tr>
-    <tr>
-      <th>ชื่อเล่น</th>
-      <td>มีมี่</td>
-    </tr>
-    <tr>
-      <th>อายุ</th>
-      <td>18 ปี</td>
-    </tr>
-    <tr>
-      <th>อาชีพที่อยากเป็นในอนาคต</th>
-      <td>ครู</td>
-    </tr>
-    <tr>
-        <td>มหาวิทยาลัย</td>
-        <td>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</td>
-    </tr>
-    <tr>
-        <td>คณะ</td>
-        <td>คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี</td>
-    </tr>
-    <tr>
-        <td>สาขาวิชา</td>
-        <td>เทคโนโลยีคอมพิวเตอร์</td>
-    </tr>
-</tbody>
-  </table>
+    <h1>ข้อมูลส่วนตัว</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>หัวข้อ</th>
+                <th>ข้อมูล</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ชื่อ</td>
+                <td>กิตติกาญจน์ แก้วนวล</td>
+            </tr>
+            <tr>
+                <td>ชื่อเล่น</td>
+                <td>มีมี่</td>
+            </tr>
+            <tr>
+                <td>อายุ</td>
+                <td>18 ปี</td>
+            </tr>
+            <tr>
+                <td>อาชีพที่อยากเป็นในอนาคต</td>
+                <td>ครู</td>
+            </tr>
+            <tr>
+                <td>มหาวิทยาลัย</td>
+                <td>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</td>
+            </tr>
+            <tr>
+                <td>คณะ</td>
+                <td>คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี</td>
+            </tr>
+            <tr>
+                <td>สาขาวิชา</td>
+                <td>เทคโนโลยีคอมพิวเตอร์</td>
+            </tr>
+        </tbody>
+    </table>
 
-  <h1>เมนูอาหาร</h1>
-  <div class="menu-item">
-    <h3>ซาลาเปาทอด</h3>
-    <p>ราคา: 20 บาท</p>
-  </div>
-  <div class="menu-item">
-    <h3>ปาท่องโก๋</h3>
-    <p>ราคา: 20 บาท</p>
-  </div>
-  <div class="menu-item">
-    <h3>น้ำเต้าหู้</h3>
-    <p>ราคา: 10 บาท</p>
-  </div>
-  <div class="menu-item">
-    <h3>น้ำเต้าหู้นมสด</h3>
-    <p>ราคา: 15 บาท</p>
-  </div>
-  <div class="menu-item">
-    <h3>น้ำเต้าหู้งาดำ</h3>
-    <p>ราคา: 12 บาท</p>
-  </div>
-  <div class="menu-item">
-    <h3>น้ำเต้าหู้ชาเขียว</h3>
-    <p>ราคา: 12 บาท</p>
-  </div>
-  <div class="menu-item">
-    <h3>น้ำเต้าหู้โกโก้</h3>
-    <p>ราคา: 12 บาท</p>
-  </div><div class="menu-item">
-    <h3>น้ำเต้าหู้ชาไทย</h3>
-    <p>ราคา: 12 บาท</p>
-  </div>
+    <h1>เมนูอาหาร</h1>
+    <div class="menu-item">
+        <h3>ซาลาเปาทอด</h3>
+        <p>ราคา: 20 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>ปาท่องโก๋</h3>
+        <p>ราคา: 20 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้</h3>
+        <p>ราคา: 10 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้นมสด</h3>
+        <p>ราคา: 15 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้งาดำ</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้ชาเขียว</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้โกโก้</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
+    <div class="menu-item">
+        <h3>น้ำเต้าหู้ชาไทย</h3>
+        <p>ราคา: 12 บาท</p>
+    </div>
 
 </body>
 </html>
@@ -264,9 +275,9 @@
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
 
-<img width="1455" alt="Screenshot 2568-02-05 at 14 01 57" src="https://github.com/user-attachments/assets/ee4353d7-704c-4f0f-ae88-54e917963a92" />
+<img width="765" alt="Screenshot 2568-02-05 at 14 07 15" src="https://github.com/user-attachments/assets/e62301b3-e557-4786-a8a7-c0c8ddeaa4f9" />
 
-<img width="1206" alt="Screenshot 2568-02-05 at 14 02 08" src="https://github.com/user-attachments/assets/12c5efd9-801d-4b07-a315-795f6131bb3e" />
+<img width="489" alt="Screenshot 2568-02-05 at 14 07 28" src="https://github.com/user-attachments/assets/c8b4754c-5265-4e90-b32a-1c042fed707f" />
 
 
 
