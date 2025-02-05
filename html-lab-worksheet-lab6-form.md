@@ -373,5 +373,6 @@
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
 
-![Uploading Screenshot 2568-02-05 at 15.15.57.png…]()
+<img width="1184" alt="Screenshot 2568-02-05 at 15 15 57" src="https://github.com/user-attachments/assets/9508049f-d851-49d9-8f19-42762f3c6bbe" />
+
 
